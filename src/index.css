@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+     font-family: 'YekanBalkhHeavy';
+     src: local('YekanBalkhHeavy'), url(./fmasire_file_font.ttf) format('ttf');
+}
+
+@layer base {
+     html {
+          font-family: YekanBalkhHeavy;
+     }
+}
+
+@layer utilities {
+     .btn {
+          @apply text-blue-600 font-bold text-3xl
+     }
+}

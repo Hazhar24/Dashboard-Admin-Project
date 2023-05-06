@@ -1,14 +1,16 @@
-import './App.css'
-import { useRoutes } from 'react-router-dom'
-import Routes from './routes'
+import "./App.css";
+import { useRoutes } from "react-router-dom";
+import Routes from "./routes";
+import TopBar from "./components/topbar/TopBar";
 
 function App() {
-  let router = useRoutes(Routes)
+  let router = useRoutes(Routes);
   return (
-    <>
-    {router}
-    </>
-  )
+    <div>
+      <TopBar />
+      {router}
+    </div>
+  );
 }
 
-export default App
+export default App;
