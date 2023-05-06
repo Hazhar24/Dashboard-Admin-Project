@@ -1,10 +1,12 @@
 import './App.css'
+import { useRoutes } from 'react-router-dom'
+import Routes from './routes'
 
 function App() {
-
+  let router = useRoutes(Routes)
   return (
     <>
-    <h1 className=' text-red-600'>hazhar</h1>
+    {router}
     </>
   )
 }
