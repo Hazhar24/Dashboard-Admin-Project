@@ -2,19 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
      font-family: 'YekanBalkhHeavy';
      src: local('YekanBalkhHeavy'), url(./fmasire_file_font.ttf) format('ttf');
 }
-
 @layer base {
      html {
           font-family: YekanBalkhHeavy;
      }
 }
 
+
 @layer utilities {
+     .topbar{
+          @apply flex justify-between w-full h-16 items-center fixed z-50 px-5
+     }
      .btn {
           @apply text-blue-600 font-bold text-3xl
+     }
+     .topbarRight{
+          @apply flex text-2xl
+     }
+     .iconBar{
+          @apply flex mr-4 items-center
+     }
+     .spanTop{
+          @apply w-5 h-5 absolute bottom-10 rounded-full flex items-center justify-center text-white ml-2 bg-red-700 text-base
+     }
+     .imageBar{
+          @apply flex w-12 h-12 rounded-full items-center object-cover cursor-pointer
      }
 }
