@@ -1,4 +1,4 @@
-import { DataTopbar } from "../../data/DataTopbar";
+import { DataTopbar } from "@/data/DataTopbar";
 import { IoMdNotificationsOutline } from "@react-icons/all-files/io/IoMdNotificationsOutline";
 import { MdLanguage } from "@react-icons/all-files/md/MdLanguage";
 import { RiSettings5Line } from "@react-icons/all-files/ri/RiSettings5Line";
