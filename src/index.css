@@ -49,7 +49,7 @@
      .sideBarListItem {
           @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-40 mx-2
      }
-     .item{
+     .sideBarIcon{
           @apply px-2 text-blue-800
      }
 }

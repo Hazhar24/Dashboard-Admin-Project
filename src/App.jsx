@@ -1,7 +1,7 @@
 import "./App.css";
 import { useRoutes } from "react-router-dom";
 import Routes from "./routes";
-import TopBar from "./components/topbar/Topbar";
+import TopBar from "./components/topbar/TopBar";
 import SideBar from "./components/sidebar/SideBar";
 
 function App() {
