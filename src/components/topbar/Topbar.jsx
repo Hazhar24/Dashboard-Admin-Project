@@ -1,7 +1,7 @@
 import { DataTopbar } from "../../data/DataTopbar";
-import {IoMdNotificationsOutline} from '@react-icons/all-files/io/IoMdNotificationsOutline'
-import {MdLanguage} from '@react-icons/all-files/md/MdLanguage'
-import {RiSettings5Line} from '@react-icons/all-files/ri/RiSettings5Line'
+import { IoMdNotificationsOutline } from "@react-icons/all-files/io/IoMdNotificationsOutline";
+import { MdLanguage } from "@react-icons/all-files/md/MdLanguage";
+import { RiSettings5Line } from "@react-icons/all-files/ri/RiSettings5Line";
 
 export default function TopBar() {
   return (
@@ -21,7 +21,7 @@ export default function TopBar() {
         <div className="TopBarIcon">
           <RiSettings5Line />
         </div>
-          <img className="TopBarImage" src="image/IMG2.jpg" alt="" />
+        <img className="TopBarImage" src="image/IMG2.jpg" alt="myImage" />
       </div>
     </div>
   );

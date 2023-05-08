@@ -7,6 +7,7 @@
      font-family: 'YekanBalkhHeavy';
      src: local('YekanBalkhHeavy'), url(./fmasire_file_font.ttf) format('ttf');
 }
+
 @layer base {
      html {
           font-family: YekanBalkhHeavy;
@@ -15,22 +16,37 @@
 
 
 @layer utilities {
-     .TopBar{
+     .TopBar {
           @apply flex justify-between w-full h-16 items-center fixed z-50 px-5
      }
      .TopBarLogo {
-          @apply text-blue-600 font-bold text-3xl
+          @apply text-blue-800 font-bold text-3xl
      }
-     .topbarRight{
-          @apply flex text-2xl
+     .topbarRight {
+          @apply flex text-xl
      }
-     .TopBarIcon{
-          @apply flex mr-4 items-center
+     .TopBarIcon {
+          @apply flex mr-4 items-center text-2xl
      }
-     .TopBarSpan{
+     .TopBarSpan {
           @apply w-5 h-5 absolute bottom-10 rounded-full flex items-center justify-center text-white ml-2 bg-red-700 text-base
      }
-     .TopBarImage{
-          @apply flex w-12 h-12 rounded-full items-center object-cover cursor-pointer
+     .TopBarImage {
+          @apply flex w-10 h-10 rounded-full items-center object-cover cursor-pointer
+     }
+}
+
+@layer utilities {
+     .SideBarMain{
+          @apply flex flex-col w-48 border rounded h-screen bg-slate-100
+     }
+     .sideBar {
+          @apply px-5 mt-2 font-bold  text-sm
+     }
+     .SdideBarList{
+          @apply mt-2
+     }
+     .sideBarListItem {
+          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-40 mx-2
      }
 }
