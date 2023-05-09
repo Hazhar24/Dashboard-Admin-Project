@@ -38,7 +38,7 @@
 
 @layer utilities {
      .SideBarMain{
-          @apply flex flex-1 w-72 flex-col border rounded-lg h-screen bg-slate-100 sticky
+          @apply flex flex-1 w-64 flex-col border rounded-lg h-screen bg-slate-100 sticky
      }
      .sideBar {
           @apply px-5 mt-2 font-bold  text-sm
@@ -47,7 +47,7 @@
           @apply mt-2
      }
      .sideBarListItem {
-          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-40 mx-2
+          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-56 mx-2
      }
      .sideBarIcon{
           @apply px-2 text-blue-800
@@ -59,7 +59,7 @@
           @apply flex justify-between
      }
      .featuerItem{
-          @apply flex-1 mx-5 p-10 border rounded-lg cursor-pointer shadow-md w-96
+          @apply flex-1 mx-5 p-7 border rounded-lg cursor-pointer shadow-md w-96
      }
      .featuerTitle{
           @apply text-xl font-medium
@@ -81,5 +81,13 @@
      }
      .featuerSub{
           @apply text-gray-400
+     }
+}
+@layer utilities{
+     .chart{
+          @apply m-5 p-3 border rounded-lg shadow-md
+     }
+     .chartTitle{
+          @apply text-blue-800 font-semibold text-lg m-2
      }
 }
