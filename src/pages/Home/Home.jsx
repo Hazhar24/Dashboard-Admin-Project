@@ -1,6 +1,9 @@
+import Featuer from "@/components/featuers/Featuer"
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <Featuer />
+    </div>
   )
 }

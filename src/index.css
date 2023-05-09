@@ -17,7 +17,7 @@
 
 @layer utilities {
      .TopBar {
-          @apply flex justify-between w-full h-16 items-center fixed z-50 px-5
+          @apply flex justify-between w-full h-16 items-center sticky z-50 px-5
      }
      .TopBarLogo {
           @apply text-blue-800 font-bold text-3xl
@@ -38,7 +38,7 @@
 
 @layer utilities {
      .SideBarMain{
-          @apply flex flex-col w-48 border rounded h-screen bg-slate-100
+          @apply flex flex-1 w-72 flex-col border rounded-lg h-screen bg-slate-100 sticky
      }
      .sideBar {
           @apply px-5 mt-2 font-bold  text-sm
@@ -51,5 +51,35 @@
      }
      .sideBarIcon{
           @apply px-2 text-blue-800
+     }
+}
+
+@layer utilities{
+     .featuer{
+          @apply flex justify-between
+     }
+     .featuerItem{
+          @apply flex-1 mx-5 p-10 border rounded-lg cursor-pointer shadow-md w-96
+     }
+     .featuerTitle{
+          @apply text-xl font-medium
+     }
+     .featuerContainer{
+          @apply flex items-center my-2
+     }
+     .featuerMoney{
+          @apply text-2xl font-semibold
+     }
+     .featuerRate{
+          @apply flex items-center ml-5
+     }
+     .featuerIcon{
+          @apply text-green-500 text-lg ml-2
+     }
+     .negative{
+          @apply text-red-600
+     }
+     .featuerSub{
+          @apply text-gray-400
      }
 }
