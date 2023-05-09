@@ -2,6 +2,7 @@ import { DataSideBar } from "@/data/DataSideBar";
 import { MdLineStyle } from "@react-icons/all-files/md/MdLineStyle";
 import { MdTimeline } from "@react-icons/all-files/md/MdTimeline";
 import { AiOutlineRise } from "@react-icons/all-files/ai/AiOutlineRise";
+import { Link } from "react-router-dom";
 
 export default function Dashboard() {
   return (
@@ -9,12 +10,14 @@ export default function Dashboard() {
       <div>
         <h3 className="sideBar">{DataSideBar.SideBar[0].name}</h3>
         <ul className="SdideBarList">
-          <li className="sideBarListItem bg-gray-200">
-            <p className="sideBarIcon">
-              <MdLineStyle />
-            </p>
-            {DataSideBar.SideBar[1].name}
-          </li>
+          <Link to="/">
+            <li className="sideBarListItem bg-gray-200">
+              <p className="sideBarIcon">
+                <MdLineStyle />
+              </p>
+              {DataSideBar.SideBar[1].name}
+            </li>
+          </Link>
           <li className="sideBarListItem">
             <p className="sideBarIcon">
               <MdTimeline />
