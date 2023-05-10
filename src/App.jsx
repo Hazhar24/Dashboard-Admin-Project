@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <TopBar />
-      <div className="flex mt-7 fixed top-10">
+      <div className="flex">
         <SideBar />
         {router}
       </div>
