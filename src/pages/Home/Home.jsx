@@ -6,7 +6,7 @@ import WidgetLg from "@/components/widgetLg/WidgetLg"
 
 export default function Home() {
   return (
-    <div>
+    <div className="Home">
       <Featuer />
       <Chart Grid Title="Month Sale" Data={xAxisData} DataKey="sale" />
       <div className="homeWidgets">

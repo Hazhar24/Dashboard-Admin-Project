@@ -88,10 +88,10 @@ export const Transactions = [
   {
     Id:2,
     customer:'Hemn ghaderi',
-    date:'12 Feb 2021',
+    date:'17 Feb 2021',
     amount: 180 ,
     status:'Declined',
-    img:'image/IMG1.jpg'
+    img:'image/IMG2.jpg'
   },
   {
     Id:3,
