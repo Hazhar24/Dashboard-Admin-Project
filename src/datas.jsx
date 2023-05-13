@@ -49,3 +49,64 @@ export const xAxisData = [
   },
 ];
 
+export const NewMembers = [
+  {
+    Id: 1,
+    Username: "Hazhar Ghaderi",
+    Title: "Web Developer",
+    Img: "image/IMG1.jpg",
+  },
+  {
+    Id: 2,
+    Username: "Hemn Ghaderi",
+    Title: "Store Phone",
+    Img: "image/IMG2.jpg",
+  },
+  {
+    Id: 3,
+    Username: "Sirvan Ghaderi",
+    Title: "Driver",
+    Img: "image/IMG3.jpg",
+  },
+  {
+    Id: 4,
+    Username: "Soran Ghaderi",
+    Title: "Store",
+    Img: "image/IMG4.jpg",
+  },
+];
+
+export const Transactions = [
+  {
+    Id:1,
+    customer:'Hazhar ghaderi',
+    date:'12 Jun 2022',
+    amount: 124 ,
+    status:'Approved',
+    img:'image/IMG1.jpg'
+  },
+  {
+    Id:2,
+    customer:'Hemn ghaderi',
+    date:'12 Feb 2021',
+    amount: 180 ,
+    status:'Declined',
+    img:'image/IMG1.jpg'
+  },
+  {
+    Id:3,
+    customer:'Sirvan ghaderi',
+    date:'19 Oct 2020',
+    amount: 200 ,
+    status:'Pending',
+    img:'image/IMG3.jpg'
+  },
+  {
+    Id:4,
+    customer:'Soran ghaderi',
+    date:'25 Agu 2019',
+    amount: 102 ,
+    status:'Approved',
+    img:'image/IMG4.jpg'
+  },
+]

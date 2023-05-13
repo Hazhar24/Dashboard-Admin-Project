@@ -1,6 +1,6 @@
 import { DataWidgetSm } from "@/data/DataHomeWidget";
 import { MdVisibility } from "@react-icons/all-files/md/MdVisibility";
-import { NewMembers } from "@/datas1";
+import { NewMembers } from "@/datas";
 
 export default function WidgetSm() {
   return (
