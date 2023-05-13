@@ -96,3 +96,32 @@
           @apply flex m-5
      }
 }
+@layer utilities{
+     .WidgetSm{
+          @apply flex-1 p-4 shadow-md border
+     }
+     .WidgetSmTitle{
+          @apply text-base font-medium
+     }
+     .WidgetSmList{
+          @apply m-0 p-0
+     }
+     .WidgetSmItem{
+          @apply flex justify-between items-center m-5
+     }
+     .WidgetSmIMG{
+          @apply w-10 rounded-full object-cover
+     }
+     .WidgetSmUser{
+          @apply flex flex-col
+     }
+     .WidgetSmUserName{
+          @apply font-semibold
+     }
+     .WidgetSmUserTitle{
+          @apply text-sm text-gray-400
+     }
+     .WidgetSmButton{
+          @apply flex items-center border p-1 rounded-md bg-slate-200 text-gray-700
+     }
+}
