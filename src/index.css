@@ -190,6 +190,6 @@
           @apply flex items-center border w-10 rounded-md justify-center bg-green-300
      }
      .UserListIcon{
-          @apply text-red-500 text-xl mx-4
+          @apply text-red-500 text-xl mx-4 cursor-pointer
      }
 }

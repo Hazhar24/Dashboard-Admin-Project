@@ -78,69 +78,69 @@ export const NewMembers = [
 
 export const Transactions = [
   {
-    Id:1,
-    customer:'Hazhar ghaderi',
-    date:'12 Jun 2022',
-    amount: 124 ,
-    status:'Approved',
-    img:'image/IMG1.jpg'
+    Id: 1,
+    customer: "Hazhar ghaderi",
+    date: "12 Jun 2022",
+    amount: 124,
+    status: "Approved",
+    img: "image/IMG1.jpg",
   },
   {
-    Id:2,
-    customer:'Hemn ghaderi',
-    date:'17 Feb 2021',
-    amount: 180 ,
-    status:'Declined',
-    img:'image/IMG2.jpg'
+    Id: 2,
+    customer: "Hemn ghaderi",
+    date: "17 Feb 2021",
+    amount: 180,
+    status: "Declined",
+    img: "image/IMG2.jpg",
   },
   {
-    Id:3,
-    customer:'Sirvan ghaderi',
-    date:'19 Oct 2020',
-    amount: 200 ,
-    status:'Pending',
-    img:'image/IMG3.jpg'
+    Id: 3,
+    customer: "Sirvan ghaderi",
+    date: "19 Oct 2020",
+    amount: 200,
+    status: "Pending",
+    img: "image/IMG3.jpg",
   },
   {
-    Id:4,
-    customer:'Soran ghaderi',
-    date:'25 Agu 2019',
-    amount: 102 ,
-    status:'Approved',
-    img:'image/IMG4.jpg'
+    Id: 4,
+    customer: "Soran ghaderi",
+    date: "25 Agu 2019",
+    amount: 102,
+    status: "Approved",
+    img: "image/IMG4.jpg",
   },
-]
-export const userRows =[
+];
+export const userRows = [
   {
-    Id:1 ,
-    Username:'Hazhar ghaderi',
-    avatar:'image/IMG1.jpg',
-    Email:'Hazhar@Email.com',
-    status:'Active',
-    transaction:'$ 200.24'
-  },
-  {
-    Id:2 ,
-    Username:'Hemn ghaderi',
-    avatar:'image/IMG2.jpg',
-    Email:'Hemn@Email.com',
-    status:'Non-Active',
-    transaction:'$ 150.23'
+    id: 1,
+    Username: "Hazhar ghaderi",
+    avatar: "image/IMG1.jpg",
+    Email: "Hazhar@Email.com",
+    status: "Active",
+    transaction: "$ 200.24",
   },
   {
-    Id:3 ,
-    Username:'Sirvan ghaderi',
-    avatar:'image/IMG3.jpg',
-    Email:'Sirvan@Email.com',
-    status:'Active',
-    transaction:'$ 181.32'
+    id: 2,
+    Username: "Hemn ghaderi",
+    avatar: "image/IMG2.jpg",
+    Email: "Hemn@Email.com",
+    status: "Non-Active",
+    transaction: "$ 150.23",
   },
   {
-    Id:4 ,
-    Username:'Soran ghaderi',
-    avatar:'image/IMG4.jpg',
-    Email:'Soran@Email.com',
-    status:'Non-Active',
-    transaction:'$ 122.33'
+    id: 3,
+    Username: "Sirvan ghaderi",
+    avatar: "image/IMG3.jpg",
+    Email: "Sirvan@Email.com",
+    status: "Active",
+    transaction: "$ 181.32",
   },
-]
+  {
+    id: 4,
+    Username: "Soran ghaderi",
+    avatar: "image/IMG4.jpg",
+    Email: "Soran@Email.com",
+    status: "Non-Active",
+    transaction: "$ 122.33",
+  },
+];
