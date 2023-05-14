@@ -1,18 +1,19 @@
 import { userRows } from "@/datas";
 import { useState } from "react";
 import { MdDelete } from "@react-icons/all-files/md/MdDelete";
+import { DataUserList } from "@/data/DataUserList";
 
 export default function UserList() {
   // const [userData,setUserData] = useState(userRows)
   return (
     <div className="UserListMain">
       <div className="UserListTop">
-        <div className="UserListTopItem">ID</div>
-        <div className="UserListTopItem">User</div>
-        <div className="UserListTopItem">Email</div>
-        <div className="UserListTopItem">Status</div>
-        <div className="UserListTopItem">Transaction</div>
-        <div className="UserListTopItem">Action</div>
+        <div className="UserListTopItem">{DataUserList.UserList[0].name}</div>
+        <div className="UserListTopItem">{DataUserList.UserList[1].name}</div>
+        <div className="UserListTopItem">{DataUserList.UserList[2].name}</div>
+        <div className="UserListTopItem">{DataUserList.UserList[3].name}</div>
+        <div className="UserListTopItem">{DataUserList.UserList[4].name}</div>
+        <div className="UserListTopItem">{DataUserList.UserList[5].name}</div>
       </div>
       <div className="UserListUser">
         {userRows.map((item) => (
