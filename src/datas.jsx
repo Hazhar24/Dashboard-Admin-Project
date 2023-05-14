@@ -115,6 +115,7 @@ export const userRows =[
     Id:1 ,
     Username:'Hazhar ghaderi',
     avatar:'image/IMG1.jpg',
+    Email:'Hazhar@Email.com',
     status:'Active',
     transaction:'$ 200.24'
   },
@@ -122,6 +123,7 @@ export const userRows =[
     Id:2 ,
     Username:'Hemn ghaderi',
     avatar:'image/IMG2.jpg',
+    Email:'Hemn@Email.com',
     status:'Non-Active',
     transaction:'$ 150.23'
   },
@@ -129,6 +131,7 @@ export const userRows =[
     Id:3 ,
     Username:'Sirvan ghaderi',
     avatar:'image/IMG3.jpg',
+    Email:'Sirvan@Email.com',
     status:'Active',
     transaction:'$ 181.32'
   },
@@ -136,6 +139,7 @@ export const userRows =[
     Id:4 ,
     Username:'Soran ghaderi',
     avatar:'image/IMG4.jpg',
+    Email:'Soran@Email.com',
     status:'Non-Active',
     transaction:'$ 122.33'
   },

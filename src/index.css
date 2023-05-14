@@ -166,3 +166,30 @@
           @apply bg-blue-200 text-blue-900
      }
 }
+
+@layer utilities{
+     .UserListMain{
+          @apply w-full mx-5 border rounded-md shadow-md
+     }
+     .UserListTop{
+          @apply pt-6 flex mx-10
+     }
+     .UserListTopItem{
+          @apply w-48 
+     }
+     .UserListLi{
+          @apply flex mt-8 mx-10
+     }
+     .UserListImg{
+          @apply w-10 rounded-full object-cover mr-2
+     }
+     .UserListItem{
+          @apply flex items-center w-48
+     }
+     .UserListButton{
+          @apply flex items-center border w-10 rounded-md justify-center bg-green-300
+     }
+     .UserListIcon{
+          @apply text-red-500 text-xl mx-4
+     }
+}
