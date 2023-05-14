@@ -110,3 +110,33 @@ export const Transactions = [
     img:'image/IMG4.jpg'
   },
 ]
+export const userRows =[
+  {
+    Id:1 ,
+    Username:'Hazhar ghaderi',
+    avatar:'image/IMG1.jpg',
+    status:'Active',
+    transaction:'$ 200.24'
+  },
+  {
+    Id:2 ,
+    Username:'Hemn ghaderi',
+    avatar:'image/IMG2.jpg',
+    status:'Non-Active',
+    transaction:'$ 150.23'
+  },
+  {
+    Id:3 ,
+    Username:'Sirvan ghaderi',
+    avatar:'image/IMG3.jpg',
+    status:'Active',
+    transaction:'$ 181.32'
+  },
+  {
+    Id:4 ,
+    Username:'Soran ghaderi',
+    avatar:'image/IMG4.jpg',
+    status:'Non-Active',
+    transaction:'$ 122.33'
+  },
+]
