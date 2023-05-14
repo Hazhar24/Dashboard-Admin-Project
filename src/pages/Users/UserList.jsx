@@ -8,9 +8,9 @@ export default function UserList() {
   return (
     <div className="UserListMain">
       <div className="UserListTop">
-        <div className="UserListTopItem">{DataUserList.UserList[0].name}</div>
+        <div className="UserListTopItem pl-10">{DataUserList.UserList[0].name}</div>
         <div className="UserListTopItem">{DataUserList.UserList[1].name}</div>
-        <div className="UserListTopItem">{DataUserList.UserList[2].name}</div>
+        <div className="UserListTopItem pl-5">{DataUserList.UserList[2].name}</div>
         <div className="UserListTopItem">{DataUserList.UserList[3].name}</div>
         <div className="UserListTopItem">{DataUserList.UserList[4].name}</div>
         <div className="UserListTopItem">{DataUserList.UserList[5].name}</div>
@@ -19,16 +19,16 @@ export default function UserList() {
         {userRows.map((item) => (
           <ul key={item.Id}>
             <li className="UserListLi">
-              <span className="UserListItem">{item.Id}</span>
+              <span className="UserListItem pl-10">{item.Id}</span>
               <div className="UserListItem">
                 <img src={item.avatar} className="UserListImg" alt="" />
                 <span>{item.Username}</span>
               </div>
-              <span className="UserListItem">{item.Email}</span>
+              <span className="UserListItem pl-5">{item.Email}</span>
               <span className="UserListItem">{item.status}</span>
               <span className="UserListItem">{item.transaction}</span>
               <div className="UserListItem">
-                <button className="UserListButton">Edit</button>
+                <button className="UserListButton">{DataUserList.UserList[6].name}</button>
                 <MdDelete className="UserListIcon" />
               </div>
             </li>

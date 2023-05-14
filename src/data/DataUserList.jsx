@@ -5,6 +5,7 @@ export const DataUserList = {
           {name:'Email'},
           {name:'Status'},
           {name:'Transaction'},
-          {name:'Action'}
+          {name:'Action'},
+          {name:'Edit'},
      ]
 }

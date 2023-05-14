@@ -175,7 +175,7 @@
           @apply pt-6 flex mx-10
      }
      .UserListTopItem{
-          @apply w-48 
+          @apply w-48 text-blue-900 text-lg font-semibold
      }
      .UserListLi{
           @apply flex mt-8 mx-10
