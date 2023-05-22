@@ -149,25 +149,25 @@ export const DataProducts = [
   {
     id: 1,
     Name: "Acer",
-    avatar: "image/IMG5.jpg",
+    Avatar: "image/IMG5.jpg",
     Price: "$ 125",
   },
   {
     id: 2,
     Name: "hp",
-    avatar: "image/IMG6.jpg",
+    Avatar: "image/IMG6.jpg",
     Price: "$ 130",
   },
   {
     id: 3,
     Name: "Dell",
-    avatar: "image/IMG7.jpg",
+    Avatar: "image/IMG7.jpg",
     Price: "$ 148",
   },
   {
     id: 4,
     Name: "Macbook",
-    avatar: "image/IMG8.jpg",
+    Avatar: "image/IMG8.jpg",
     Price: "$ 170",
   },
 ];
