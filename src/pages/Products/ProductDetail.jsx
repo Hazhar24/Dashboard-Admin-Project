@@ -6,14 +6,20 @@ function ProductDetail() {
   const params = useParams();
   const postId = parseInt(params.postID); // Convert the ID string to a number
   const product = DataProducts.find((item) => item.id === postId);
+  
+  if (!product) {
+    return <h1>Product not found</h1>;
+  }
+
   return (
     <div className="Details">
-      <p className="NameItem">Name : {product ? product.Name : "Not found"}</p>
-      <p className="NameItem">Price : {product ? product.Price : "Not found"}</p>
-      <p className="NameItem">{product ? product.Detail : "Not found"}</p>
-      <p className="AboutItem">{product ? product.About : "Not found"}</p>
+      <p className="NameItem">Name: {product.Name}</p>
+      <p className="NameItem">Price: {product.Price}</p>
+      <p className="NameItem">{product.Detail}</p>
+      <p className="AboutItem">{product.About}</p>
+      <img className="DetailIMG" src={product.Avatar} alt="ss" />
     </div>
-  )
+  );
 }
 
 export default ProductDetail;

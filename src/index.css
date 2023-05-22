@@ -196,9 +196,13 @@
 
 @layer utilities{
      .Details{
-          @apply border-2 w-full h-48 mx-5 rounded-lg text-center pt-5
+          @apply border-2 w-full mx-5 rounded-lg text-center pt-5
      }
      .NameItem{
           @apply text-xl font-semibold
      }
+     .DetailIMG{
+          @apply w-96 mx-auto pt-10
+     }
+
 }
