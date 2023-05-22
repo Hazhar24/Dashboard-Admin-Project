@@ -39,9 +39,6 @@ export default function UserList() {
               <span className="UserListItem">{item.status}</span>
               <span className="UserListItem">{item.transaction}</span>
               <div className="UserListItem">
-                <button className="UserListButton">
-                  {DataUserList.UserList[6].name}
-                </button>
                 <MdDelete className="UserListIcon" onClick={() => userDelete(item.id)}/>
               </div>
             </li>
