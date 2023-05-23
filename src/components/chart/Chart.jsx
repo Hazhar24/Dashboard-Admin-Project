@@ -10,7 +10,7 @@ import {
 export default function Chart({ Title, Data, DataKey, Grid }) {
   return (
     <div className="chart">
-      <h3 className="chartTitle">{Title}</h3>
+      <h3 className="chart-title">{Title}</h3>
       <ResponsiveContainer width="100%" aspect={5}>
         <LineChart data={Data}>
           <XAxis dataKey="name" stroke="#5550bd" />

@@ -3,27 +3,27 @@ import { Transactions } from "@/datas";
 
 export default function WidgetLg() {
   const Buttonn = ({ type }) => {
-    return <button className={"WidgetLgButton " + type}>{type}</button>;
+    return <button className={"widget-lg-button " + type}>{type}</button>;
   };
   return (
-    <div className="WidgetLg">
-      <h3 className="WidgetLgTitle">{DataWidgetLg.WidgetLg[0].name}</h3>
-      <table className="WigetLgTable">
+    <div className="widget-lg">
+      <h3 className="widget-lg-title">{DataWidgetLg.WidgetLg[0].name}</h3>
+      <table className="wiget-lg-table">
         <tr>
-          <th className="WidgetLgTh">{DataWidgetLg.WidgetLg[1].name}</th>
-          <th className="WidgetLgTh">{DataWidgetLg.WidgetLg[2].name}</th>
-          <th className="WidgetLgTh">{DataWidgetLg.WidgetLg[3].name}</th>
-          <th className="WidgetLgTh">{DataWidgetLg.WidgetLg[4].name}</th>
+          <th className="widget-lg-th">{DataWidgetLg.WidgetLg[1].name}</th>
+          <th className="widget-lg-th">{DataWidgetLg.WidgetLg[2].name}</th>
+          <th className="widget-lg-th">{DataWidgetLg.WidgetLg[3].name}</th>
+          <th className="widget-lg-th">{DataWidgetLg.WidgetLg[4].name}</th>
         </tr>
         {Transactions.map((item) => (
-          <tr key={item.Id} className="WidgetLgTr">
-            <td className="WidgetLgUser">
-              <img src={item.img} alt="" className="WidgetLgImg" />
-              <span className="WidgetLgName">{item.customer}</span>
+          <tr key={item.Id}>
+            <td className="widget-lg-user">
+              <img src={item.img} alt="" className="widget-lg-img" />
+              <span>{item.customer}</span>
             </td>
-            <td className="WidgetLgDate">{item.date}</td>
-            <td className="WidgetLgAmount">{item.amount}</td>
-            <td className="WidgetLgStatus">
+            <td className="widget-lg-date">{item.date}</td>
+            <td className="widget-lg-amount">{item.amount}</td>
+            <td className="widget-lg-status">
               <Buttonn type={item.status} />
             </td>
           </tr>

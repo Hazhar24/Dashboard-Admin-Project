@@ -12,32 +12,32 @@ export default function Products() {
     });
   };
   return (
-    <div className="UserListMain">
-      <div className="UserListTop">
-        <div className="UserListTopItem">{DataProduct.Products[0].name}</div>
-        <div className="UserListTopItem">{DataProduct.Products[1].name}</div>
-        <div className="UserListTopItem">{DataProduct.Products[2].name}</div>
-        <div className="UserListTopItem">{DataProduct.Products[3].name}</div>
+    <div className="user-list-main">
+      <div className="user-list-top">
+        <div className="user-list-top-item">{DataProduct.Products[0].name}</div>
+        <div className="user-list-top-item">{DataProduct.Products[1].name}</div>
+        <div className="user-list-top-item">{DataProduct.Products[2].name}</div>
+        <div className="user-list-top-item">{DataProduct.Products[3].name}</div>
       </div>
-      <div className="UserListUser">
+      <div>
         {userData.map((item) => (
           <ul key={item.id}>
-            <li className="UserListLi">
-              <Link className="UserListItem">{item.id}</Link>
-              <div className="UserListItem">
-                <img src={item.Avatar} className="UserListImg" alt="" />
+            <li className="user-list-li">
+              <Link className="user-list-item">{item.id}</Link>
+              <div className="user-list-item">
+                <img src={item.Avatar} className="user-list-img" alt="" />
                 <span>{item.Name}</span>
               </div>
-              <span className="UserListItem">{item.Price}</span>
-              <div className="UserListItem">
+              <span className="user-list-item">{item.Price}</span>
+              <div className="user-list-item">
 
                 <Link to={`/product/${item.id}`}>
-                  <button className="UserListButton">
+                  <button className="user-list-button">
                     {DataProduct.Products[4].name}
                   </button>
                 </Link>
                 
-                <MdDelete className="UserListIcon" onClick={() => userDelete(item.id)}/>
+                <MdDelete className="user-list-icon" onClick={() => userDelete(item.id)}/>
               </div>
             </li>
           </ul>

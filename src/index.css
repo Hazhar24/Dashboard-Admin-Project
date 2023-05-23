@@ -15,41 +15,41 @@
 
 
 @layer utilities {
-     .TopBar {
+     .topbar {
           @apply flex justify-between w-full h-16 items-center sticky z-50 pl-5
      }
-     .TopBarLogo {
+     .topbar-logo {
           @apply text-blue-800 font-bold text-3xl
      }
-     .topbarRight {
+     .topbar-right {
           @apply flex text-xl pr-6
      }
-     .TopBarIcon {
+     .topbar-icon {
           @apply flex mr-4 items-center text-2xl
      }
-     .TopBarSpan {
+     .topbar-span {
           @apply w-5 h-5 absolute bottom-10 rounded-full flex items-center justify-center text-white ml-3 bg-red-700 text-base
      }
-     .TopBarImage {
+     .topbar-image {
           @apply flex w-10 h-10 rounded-full items-center object-cover cursor-pointer
      }
 }
 
 
 @layer utilities {
-     .SideBarMain{
+     .sidebar-main{
           @apply h-screen flex-col border rounded-lg bg-slate-100 w-64 ml-5
      }
-     .sideBar {
+     .sidebar {
           @apply px-5 mt-2 font-bold text-sm
      }
-     .SdideBarList{
+     .sdidebar-list{
           @apply mt-2
      }
-     .sideBarListItem {
+     .sidebar-list-item {
           @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-56 mx-2
      }
-     .sideBarIcon{
+     .sidebar-icon{
           @apply px-2 text-blue-800
      }
 }
@@ -64,28 +64,28 @@
      .featuer{
           @apply flex justify-between
      }
-     .featuerItem{
+     .featuer-item{
           @apply flex-1 mx-5 p-7 border rounded-lg cursor-pointer shadow-md
      }
-     .featuerTitle{
+     .featuer-title{
           @apply text-xl font-medium
      }
-     .featuerContainer{
+     .featuer-container{
           @apply flex items-center my-2
      }
-     .featuerMoney{
+     .featuer-money{
           @apply text-2xl font-semibold
      }
-     .featuerRate{
+     .featuer-rate{
           @apply flex items-center ml-5
      }
-     .featuerIcon{
+     .featuer-icon{
           @apply text-green-500 text-lg ml-2
      }
      .negative{
           @apply text-red-600
      }
-     .featuerSub{
+     .featuer-sub{
           @apply text-gray-400
      }
 }
@@ -93,115 +93,115 @@
      .chart{
           @apply m-5 p-3 border rounded-lg shadow-md
      }
-     .chartTitle{
+     .chart-title{
           @apply text-blue-800 font-semibold text-lg m-2
      }
 }
 @layer utilities{
-     .homeWidgets{
+     .home-widgets{
           @apply flex m-5
      }
 }
 @layer utilities{
-     .WidgetSm{
+     .widget-sm{
           @apply  w-1/3 p-4 shadow-md border rounded-md
      }
-     .WidgetSmTitle{
+     .widget-sm-title{
           @apply text-lg font-semibold
      }
-     .WidgetSmList{
+     .widget-sm-list{
           @apply m-0 p-0
      }
-     .WidgetSmItem{
+     .widget-sm-item{
           @apply flex justify-between items-center m-5
      }
-     .WidgetSmIMG{
+     .widget-sm-IMG{
           @apply w-10 rounded-full object-cover
      }
-     .WidgetSmUser{
+     .widget-sm-user{
           @apply flex flex-col
      }
-     .WidgetSmUserName{
+     .widget-sm-userName{
           @apply font-semibold
      }
-     .WidgetSmUserTitle{
+     .widget-sm-userTitle{
           @apply text-sm text-gray-400
      }
-     .WidgetSmButton{
+     .widget-sm-button{
           @apply flex items-center border p-1 rounded-md bg-slate-200 text-gray-700
      }
 }
 @layer utilities{
-     .WidgetLg{
+     .widget-lg{
           @apply p-4 shadow-md border ml-5 rounded-md w-full
      }
-     .WidgetLgTitle{
+     .widget-lg-title{
           @apply text-lg font-semibold
      }
-     .WigetLgTable{
+     .wiget-lg-table{
           @apply w-full ml-12
      }
-     .WidgetLgTh{
+     .widget-lg-th{
           @apply py-5 text-left
      }
-     .WidgetLgUser{
+     .widget-lg-user{
           @apply flex items-center py-2 
      }
-     .WidgetLgImg{
+     .widget-lg-img{
           @apply w-10 rounded-full object-cover mr-2
      }
-     .WidgetLgDate,.WidgetLgAmount{
+     .widget-lg-date,.widget-lg-amount{
           @apply text-sm text-gray-600
      }
-     .WidgetLgButton{
+     .widget-lg-button{
           @apply border-none rounded-md w-20
      }
-     .WidgetLgButton.Approved {
+     .widget-lg-button.Approved {
           @apply bg-green-200 text-green-900
      }
-     .WidgetLgButton.Declined {
+     .widget-lg-button.Declined {
           @apply bg-red-200 text-red-900
      }
-     .WidgetLgButton.Pending {
+     .widget-lg-button.Pending {
           @apply bg-blue-200 text-blue-900
      }
 }
 
 @layer utilities{
-     .UserListMain{
+     .user-list-main{
           @apply w-full mx-5 border rounded-md shadow-md
      }
-     .UserListTop{
+     .user-list-top{
           @apply pt-6 flex mx-10
      }
-     .UserListTopItem{
+     .user-list-top-item{
           @apply w-48 text-blue-900 text-lg font-semibold
      }
-     .UserListLi{
+     .user-list-li{
           @apply flex mt-8 mx-10
      }
-     .UserListImg{
-          @apply w-10 rounded-full object-cover mr-2
+     .user-list-img{
+          @apply w-14 rounded-full object-cover mr-2
      }
-     .UserListItem{
+     .user-list-item{
           @apply flex items-center w-48
      }
-     .UserListButton{
+     .user-list-button{
           @apply border w-16 rounded-md bg-green-300
      }
-     .UserListIcon{
+     .user-list-icon{
           @apply text-red-500 text-xl mx-4 cursor-pointer
      }
 }
 
 @layer utilities{
-     .Details{
+     .details{
           @apply border-2 w-full mx-5 rounded-lg text-center pt-5
      }
-     .NameItem{
+     .name-item{
           @apply text-xl font-semibold
      }
-     .DetailIMG{
+     .detail-IMG{
           @apply w-96 mx-auto pt-10
      }
 

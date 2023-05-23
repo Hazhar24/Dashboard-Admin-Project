@@ -13,33 +13,33 @@ export default function UserList() {
   };
 
   return (
-    <div className="UserListMain">
-      <div className="UserListTop">
-        <div className="UserListTopItem pl-10">
+    <div className="user-list-main">
+      <div className="user-list-top">
+        <div className="user-list-top-item pl-10">
           {DataUserList.UserList[0].name}
         </div>
-        <div className="UserListTopItem">{DataUserList.UserList[1].name}</div>
-        <div className="UserListTopItem pl-5">
+        <div className="user-list-top-item">{DataUserList.UserList[1].name}</div>
+        <div className="user-list-top-item pl-5">
           {DataUserList.UserList[2].name}
         </div>
-        <div className="UserListTopItem">{DataUserList.UserList[3].name}</div>
-        <div className="UserListTopItem">{DataUserList.UserList[4].name}</div>
-        <div className="UserListTopItem">{DataUserList.UserList[5].name}</div>
+        <div className="user-list-top-item">{DataUserList.UserList[3].name}</div>
+        <div className="user-list-top-item">{DataUserList.UserList[4].name}</div>
+        <div className="user-list-top-item">{DataUserList.UserList[5].name}</div>
       </div>
-      <div className="UserListUser">
+      <div>
         {userData.map((item) => (
           <ul key={item.id}>
-            <li className="UserListLi">
-              <span className="UserListItem pl-10">{item.id}</span>
-              <div className="UserListItem">
-                <img src={item.avatar} className="UserListImg" alt="" />
+            <li className="user-list-li">
+              <span className="user-list-item pl-10">{item.id}</span>
+              <div className="user-list-item">
+                <img src={item.avatar} className="user-list-img" alt="" />
                 <span>{item.Username}</span>
               </div>
-              <span className="UserListItem pl-5">{item.Email}</span>
-              <span className="UserListItem">{item.status}</span>
-              <span className="UserListItem">{item.transaction}</span>
-              <div className="UserListItem">
-                <MdDelete className="UserListIcon" onClick={() => userDelete(item.id)}/>
+              <span className="user-list-item pl-5">{item.Email}</span>
+              <span className="user-list-item">{item.status}</span>
+              <span className="user-list-item">{item.transaction}</span>
+              <div className="user-list-item">
+                <MdDelete className="user-list-icon" onClick={() => userDelete(item.id)}/>
               </div>
             </li>
           </ul>

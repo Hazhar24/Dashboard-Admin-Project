@@ -5,23 +5,23 @@ import { RiSettings5Line } from "@react-icons/all-files/ri/RiSettings5Line";
 
 export default function TopBar() {
   return (
-    <div className="TopBar">
+    <div className="topbar">
       <div>
-        <span className="TopBarLogo">{DataTopbar.Topbar[0].name}</span>
+        <span className="topbar-logo">{DataTopbar.Topbar[0].name}</span>
       </div>
-      <div className="topbarRight">
-        <div className="TopBarIcon">
+      <div className="topbar-right">
+        <div className="topbar-icon">
           <IoMdNotificationsOutline />
-          <span className="TopBarSpan">2</span>
+          <span className="topbar-span">2</span>
         </div>
-        <div className="TopBarIcon">
+        <div className="topbar-icon">
           <MdLanguage />
-          <span className="TopBarSpan">2</span>
+          <span className="topbar-span">2</span>
         </div>
-        <div className="TopBarIcon">
+        <div className="topbar-icon">
           <RiSettings5Line />
         </div>
-        <img className="TopBarImage" src="image/IMG1.jpg" alt="myImage" />
+        <img className="topbar-image" src="image/IMG1.jpg" alt="myImage" />
       </div>
     </div>
   );

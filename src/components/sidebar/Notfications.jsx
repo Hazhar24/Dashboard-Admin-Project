@@ -7,22 +7,22 @@ export default function Notfications() {
   return (
     <div>
       <div>
-        <h3 className="sideBar">{DataSideBar.SideBar[10].name}</h3>
-        <ul className="SdideBarList">
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+        <h3 className="sidebar">{DataSideBar.SideBar[10].name}</h3>
+        <ul className="sdidebar-list">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <FiMail />
             </p>
             {DataSideBar.SideBar[11].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <RiFeedbackLine />
             </p>
             {DataSideBar.SideBar[12].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <BiMessage />
             </p>
             {DataSideBar.SideBar[13].name}

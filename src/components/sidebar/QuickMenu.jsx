@@ -9,40 +9,40 @@ export default function QuickMenu() {
   return (
     <div>
       <div>
-        <h3 className="sideBar">{DataSideBar.SideBar[4].name}</h3>
-        <ul className="SdideBarList">
+        <h3 className="sidebar">{DataSideBar.SideBar[4].name}</h3>
+        <ul className="sdidebar-list">
           <Link to="/users">
-            <li className="sideBarListItem">
-              <p className="sideBarIcon">
+            <li className="sidebar-list-item">
+              <p className="sidebar-icon">
                 <FiUser />
               </p>
               {DataSideBar.SideBar[5].name}
             </li>
           </Link>
           <Link to="/NewUser">
-            <li className="sideBarListItem">
-              <p className="sideBarIcon">
+            <li className="sidebar-list-item">
+              <p className="sidebar-icon">
                 <FiUser />
               </p>
               {DataSideBar.SideBar[6].name}
             </li>
           </Link>
           <Link to="/Products">
-            <li className="sideBarListItem">
-              <p className="sideBarIcon">
+            <li className="sidebar-list-item">
+              <p className="sidebar-icon">
                 <BiStoreAlt />
               </p>
               {DataSideBar.SideBar[7].name}
             </li>
           </Link>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <MdAttachMoney />
             </p>
             {DataSideBar.SideBar[8].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <BiBarChart />
             </p>
             {DataSideBar.SideBar[9].name}

@@ -8,24 +8,24 @@ export default function Dashboard() {
   return (
     <div>
       <div>
-        <h3 className="sideBar">{DataSideBar.SideBar[0].name}</h3>
-        <ul className="SdideBarList">
+        <h3 className="sidebar">{DataSideBar.SideBar[0].name}</h3>
+        <ul className="sdidebar-list">
           <Link to="/">
-            <li className="sideBarListItem bg-gray-200">
-              <p className="sideBarIcon">
+            <li className="sidebar-list-item bg-gray-200">
+              <p className="sidebar-icon">
                 <MdLineStyle />
               </p>
               {DataSideBar.SideBar[1].name}
             </li>
           </Link>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <MdTimeline />
             </p>
             {DataSideBar.SideBar[2].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <AiOutlineRise />
             </p>
             {DataSideBar.SideBar[3].name}

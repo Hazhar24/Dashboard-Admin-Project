@@ -7,22 +7,22 @@ export default function Staff() {
   return (
     <div>
       <div>
-        <h3 className="sideBar">{DataSideBar.SideBar[14].name}</h3>
-        <ul className="SdideBarList">
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+        <h3 className="sidebar">{DataSideBar.SideBar[14].name}</h3>
+        <ul className="sdidebar-list">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <FcManager />
             </p>
             {DataSideBar.SideBar[15].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <MdTimeline />
             </p>
             {DataSideBar.SideBar[16].name}
           </li>
-          <li className="sideBarListItem">
-            <p className="sideBarIcon">
+          <li className="sidebar-list-item">
+            <p className="sidebar-icon">
               <MdReport />
             </p>
             {DataSideBar.SideBar[17].name}

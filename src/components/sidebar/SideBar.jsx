@@ -5,7 +5,7 @@ import Staff from './Staff'
 
 export default function SideBar() {
   return (
-     <div className='SideBarMain'>
+     <div className='sidebar-main'>
           <Dashboard />
           <QuickMenu />
           <Notfications />
