@@ -25,7 +25,7 @@ export default function Products() {
             <li className="user-list-li">
               <Link className="user-list-item">{item.id}</Link>
               <div className="user-list-item">
-                <img src={item.img} className="user-list-img" alt="" />
+                <img src={item.img} className="user-list-IMG" alt="" />
                 <span>{item.Name}</span>
               </div>
               <span className="user-list-item">{item.Price}</span>

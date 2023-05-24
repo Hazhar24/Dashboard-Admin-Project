@@ -149,22 +149,28 @@ export const DataProducts = [
   {
     id: 1,
     Name: "Lenovo",
-    img:"../image/lenovo4.jpg",
+    CPU:"Core i7 HQ",
+    Ram:"16 GB",
+    Hard:"1 TB",
+    Size:"17 Inches",
+    Price: "$ 125",
+    img:"../image/lenovo2.jpg",
     Avatar: [
       "../image/lenovo1.jpg",
       "../image/lenovo2.jpg",
       "../image/lenovo3.jpg",
       "../image/lenovo4.jpg"
     ],
-    Price: "$ 125",
-    Detail:
-      "Core i7-1165G7 -- Hard Disk 512 GB -- Ram Memory 16 GB DDR4 -- Screen Size 15.6 Inches",
     About:
-      "INSTANT GRATIFICATION – Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of graphics performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (2)",
+      "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
   },
   {
     id: 2,
-    Name: "hp",
+    Name: "HP",
+    CPU:"Core i7 Family",
+    Ram:"8 GB",
+    Hard:"500 GB",
+    Size:"16.9 Inches",
     img:"../image/hp3.jpg",
     Avatar: [
       "../image/hp1.jpg",
@@ -173,14 +179,16 @@ export const DataProducts = [
       "../image/hp4.jpg"
     ],
     Price: "$ 130",
-    Detail:
-      "Core i7-1260P -- Hard Disk 256 GB -- Ram Memory 16 GB DDR5 -- Screen Size 15.6 Inches",
     About:
-      "INSTANT GRATIFICATION – Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of graphics performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (2)",
+      "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
   },
   {
     id: 3,
     Name: "Dell",
+    CPU:"Core i5 ",
+    Ram:"8 GB",
+    Hard:"256 GB SSD",
+    Size:"14 Inches",
     img:"../image/dell2.jpg",
     Avatar: [
       "../image/dell1.jpg",
@@ -189,14 +197,16 @@ export const DataProducts = [
       "../image/dell4.jpg"
     ],
     Price: "$ 148",
-    Detail:
-      "Core i7-1240P -- Hard Disk 1000 GB -- Ram Memory 16 GB DDR4 -- Screen Size 15.6 Inches",
     About:
-      "INSTANT GRATIFICATION – Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of graphics performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (2)",
+      "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
   },
   {
     id: 4,
     Name: "Macbook",
+    CPU:"Core i7",
+    Ram:"16 GB",
+    Hard:"1 TB",
+    Size:"16.9 Inches",
     img:"../image/mac1.jpg",
     Avatar: [
       "../image/mac1.jpg",
@@ -205,9 +215,7 @@ export const DataProducts = [
       "../image/mac4.jpg"
     ],
     Price: "$ 170",
-    Detail:
-      "Core i5 -- Hard Disk 256 GB -- Ram Memory 8 GB -- Screen Size 13 Inches",
     About:
-      "INSTANT GRATIFICATION – Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of graphics performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (2)",
+      "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
   },
 ];

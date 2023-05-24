@@ -26,13 +26,7 @@ function ProductDetail() {
     );
   };
   return (
-    <div className="flex">
-      <div className="details">
-        <p className="name-item">Name: {product.Name}</p>
-        <p className="name-item">Price: {product.Price}</p>
-        <p className="name-item">{product.Detail}</p>
-        <p className="name-about">{product.About}</p>
-      </div>
+    <div className="product-main">
       <div className="slider">
         {product?.Avatar && product.Avatar.length > 0 ? (
           <div className="slider-item">
@@ -42,7 +36,8 @@ function ProductDetail() {
               showThumbs={false}
               showStatus={false}
               infiniteLoop={true}
-              onChange={setSelectedPhoto}>
+              onChange={setSelectedPhoto}
+            >
               {product.Avatar.map((photo, index) => (
                 <div key={index}>
                   <img
@@ -54,13 +49,29 @@ function ProductDetail() {
               ))}
             </Carousel>
             <div className="arrow-buttons">
-              <button className="arrow-buttons-one" onClick={handlePrevious}>&lt;</button>
-              <button className="arrow-buttons-one" onClick={handleNext}>&gt;</button>
+              <button className="arrow-buttons-one" onClick={handlePrevious}>
+                &lt;
+              </button>
+              <button className="arrow-buttons-one" onClick={handleNext}>
+                &gt;
+              </button>
             </div>
           </div>
         ) : (
           <p>No photos available</p>
         )}
+      </div>
+      <div className="details">
+        <p className="name-item">Brand : {product.Name}</p>
+        <p className="name-item">CPU Model : {product.CPU}</p>
+        <p className="name-item">Ram Memory Installed : {product.Ram}</p>
+        <p className="name-item">Hard Disk Size : {product.Hard}</p>
+        <p className="name-item">Screen Size : {product.Size}</p>
+        <p className="name-about">About : <br />{product.About}</p>
+        <div className="item-price-buy">
+          <p className="name-item button-price">Price: {product.Price}</p>
+          <p className="name-item button-buy">Buy</p>
+        </div>
       </div>
     </div>
   );
