@@ -196,13 +196,28 @@
 
 @layer utilities{
      .details{
-          @apply border-2 w-full mx-5 rounded-lg text-center pt-5
+          @apply border-2 w-2/6 mx-5 rounded-lg text-center pt-5 h-96
      }
      .name-item{
-          @apply text-xl font-semibold
+          @apply text-xl font-semibold pt-3
      }
      .detail-IMG{
           @apply w-96 mx-auto pt-10
+     }
+     .name-about{
+          @apply text-justify px-4
+     }
+     .slider{
+          @apply flex flex-1 w-2/6 h-96
+     }
+     .slider-item{
+          @apply w-2/3
+     }
+     .slider-IMG{
+          @apply object-cover w-full h-96
+     }
+     .arrow-buttons-one{
+          @apply font-bold px-32 mt-4
      }
 
 }

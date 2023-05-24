@@ -25,18 +25,16 @@ export default function Products() {
             <li className="user-list-li">
               <Link className="user-list-item">{item.id}</Link>
               <div className="user-list-item">
-                <img src={item.Avatar} className="user-list-img" alt="" />
+                <img src={item.img} className="user-list-img" alt="" />
                 <span>{item.Name}</span>
               </div>
               <span className="user-list-item">{item.Price}</span>
               <div className="user-list-item">
-
                 <Link to={`/product/${item.id}`}>
                   <button className="user-list-button">
                     {DataProduct.Products[4].name}
                   </button>
                 </Link>
-                
                 <MdDelete className="user-list-icon" onClick={() => userDelete(item.id)}/>
               </div>
             </li>
