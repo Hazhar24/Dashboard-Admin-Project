@@ -70,7 +70,7 @@ function ProductDetail() {
         <p className="name-about">About : <br />{product.About}</p>
         <div className="item-price-buy">
           <p className="name-item button-price">Price: {product.Price}</p>
-          <p className="name-item button-buy">Buy</p>
+          <button className="name-item button-buy">Buy</button>
         </div>
       </div>
     </div>
