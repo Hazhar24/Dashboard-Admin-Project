@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         sans: ["YekanBalkhHeavy"],
       },
+      boxShadow: {
+        '3xl': '0 10px 20px -15px',
+      }
     },
   },
   plugins: [],

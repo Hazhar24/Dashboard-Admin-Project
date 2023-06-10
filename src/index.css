@@ -19,7 +19,7 @@
           @apply flex justify-between w-full h-16 items-center sticky z-50 pl-5
      }
      .topbar-logo {
-          @apply text-blue-800 font-bold text-3xl
+          @apply font-bold text-3xl
      }
      .topbar-right {
           @apply flex text-xl pr-6
@@ -38,7 +38,7 @@
 
 @layer utilities {
      .sidebar-main{
-          @apply h-screen flex-col border rounded-lg bg-slate-100 w-64 ml-5
+          @apply flex-col border-r w-64 shadow-3xl
      }
      .sidebar {
           @apply px-5 mt-2 font-bold text-sm
@@ -47,10 +47,10 @@
           @apply mt-2
      }
      .sidebar-list-item {
-          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-200 w-56 mx-2
+          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-100 w-56 mx-2
      }
      .sidebar-icon{
-          @apply px-2 text-blue-800
+          @apply px-2 text-sm
      }
 }
 
@@ -94,7 +94,7 @@
           @apply m-5 p-3 border rounded-lg shadow-md
      }
      .chart-title{
-          @apply text-blue-800 font-semibold text-lg m-2
+          @apply font-semibold text-lg m-2
      }
 }
 @layer utilities{
@@ -175,7 +175,7 @@
           @apply flex mx-10
      }
      .user-list-top-item{
-          @apply w-48 text-blue-900 text-lg font-semibold
+          @apply w-48 text-lg font-semibold
      }
      .user-list-li{
           @apply flex mt-6 mx-10
@@ -213,7 +213,7 @@
           @apply flex mt-7
      }
      .button-price{
-          @apply text-blue-800 font-semibold text-center w-64 mx-auto
+          @apply text-blue-500 font-semibold text-center w-64 mx-auto
      }
      .button-buy{
           @apply border text-center bg-green-300 w-64 mx-auto

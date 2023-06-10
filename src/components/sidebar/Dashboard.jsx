@@ -11,7 +11,7 @@ export default function Dashboard() {
         <h3 className="sidebar">{DataSideBar.SideBar[0].name}</h3>
         <ul className="sdidebar-list">
           <Link to="/">
-            <li className="sidebar-list-item bg-gray-200">
+            <li className="sidebar-list-item bg-gray-100">
               <p className="sidebar-icon">
                 <MdLineStyle />
               </p>
