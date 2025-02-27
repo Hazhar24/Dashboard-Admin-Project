@@ -54,25 +54,25 @@ export const NewMembers = [
     Id: 1,
     Username: "Hazhar Ghaderi",
     Title: "Web Developer",
-    Img: "image/IMG1.jpg",
+    Img: "image/IMG8.jpg",
   },
   {
     Id: 2,
     Username: "Hemn Ghaderi",
     Title: "Store Phone",
-    Img: "image/IMG2.jpg",
+    Img: "image/IMG5.jpg",
   },
   {
     Id: 3,
     Username: "Sirvan Ghaderi",
     Title: "Driver",
-    Img: "image/IMG3.jpg",
+    Img: "image/IMG6.jpg",
   },
   {
     Id: 4,
     Username: "Soran Ghaderi",
     Title: "Store",
-    Img: "image/IMG4.jpg",
+    Img: "image/IMG7.jpg",
   },
 ];
 
@@ -83,7 +83,7 @@ export const Transactions = [
     date: "12 Jun 2022",
     amount: 124,
     status: "Approved",
-    img: "image/IMG1.jpg",
+    img: "image/IMG8.jpg",
   },
   {
     Id: 2,
@@ -91,7 +91,7 @@ export const Transactions = [
     date: "17 Feb 2021",
     amount: 180,
     status: "Declined",
-    img: "image/IMG2.jpg",
+    img: "image/IMG5.jpg",
   },
   {
     Id: 3,
@@ -99,7 +99,7 @@ export const Transactions = [
     date: "19 Oct 2020",
     amount: 200,
     status: "Pending",
-    img: "image/IMG3.jpg",
+    img: "image/IMG6.jpg",
   },
   {
     Id: 4,
@@ -107,14 +107,14 @@ export const Transactions = [
     date: "25 Agu 2019",
     amount: 102,
     status: "Approved",
-    img: "image/IMG4.jpg",
+    img: "image/IMG7.jpg",
   },
 ];
 export const userRows = [
   {
     id: 1,
     Username: "Hazhar ghaderi",
-    avatar: "image/IMG1.jpg",
+    avatar: "image/IMG5.jpg",
     Email: "Hazhar@Email.com",
     status: "Active",
     transaction: "$ 200.24",
@@ -122,7 +122,7 @@ export const userRows = [
   {
     id: 2,
     Username: "Hemn ghaderi",
-    avatar: "image/IMG2.jpg",
+    avatar: "image/IMG6.jpg",
     Email: "Hemn@Email.com",
     status: "Non-Active",
     transaction: "$ 150.23",
@@ -130,7 +130,7 @@ export const userRows = [
   {
     id: 3,
     Username: "Sirvan ghaderi",
-    avatar: "image/IMG3.jpg",
+    avatar: "image/IMG7.jpg",
     Email: "Sirvan@Email.com",
     status: "Active",
     transaction: "$ 181.32",
@@ -138,7 +138,7 @@ export const userRows = [
   {
     id: 4,
     Username: "Soran ghaderi",
-    avatar: "image/IMG4.jpg",
+    avatar: "image/IMG8.jpg",
     Email: "Soran@Email.com",
     status: "Non-Active",
     transaction: "$ 122.33",
@@ -149,17 +149,17 @@ export const DataProducts = [
   {
     id: 1,
     Name: "Lenovo",
-    CPU:"Core i7 HQ",
-    Ram:"16 GB",
-    Hard:"1 TB",
-    Size:"17 Inches",
+    CPU: "Core i7 HQ",
+    Ram: "16 GB",
+    Hard: "1 TB",
+    Size: "17 Inches",
     Price: "$ 125",
-    img:"../image/lenovo2.jpg",
+    img: "../image/lenovo2.jpg",
     Avatar: [
       "../image/lenovo1.jpg",
       "../image/lenovo2.jpg",
       "../image/lenovo3.jpg",
-      "../image/lenovo4.jpg"
+      "../image/lenovo4.jpg",
     ],
     About:
       "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
@@ -167,16 +167,16 @@ export const DataProducts = [
   {
     id: 2,
     Name: "HP",
-    CPU:"Core i7 Family",
-    Ram:"8 GB",
-    Hard:"500 GB",
-    Size:"16.9 Inches",
-    img:"../image/hp3.jpg",
+    CPU: "Core i7 Family",
+    Ram: "8 GB",
+    Hard: "500 GB",
+    Size: "16.9 Inches",
+    img: "../image/hp3.jpg",
     Avatar: [
       "../image/hp1.jpg",
       "../image/hp2.jpg",
       "../image/hp3.jpg",
-      "../image/hp4.jpg"
+      "../image/hp4.jpg",
     ],
     Price: "$ 130",
     About:
@@ -185,16 +185,16 @@ export const DataProducts = [
   {
     id: 3,
     Name: "Dell",
-    CPU:"Core i5 ",
-    Ram:"8 GB",
-    Hard:"256 GB SSD",
-    Size:"14 Inches",
-    img:"../image/dell2.jpg",
+    CPU: "Core i5 ",
+    Ram: "8 GB",
+    Hard: "256 GB SSD",
+    Size: "14 Inches",
+    img: "../image/dell2.jpg",
     Avatar: [
       "../image/dell1.jpg",
       "../image/dell2.jpg",
       "../image/dell3.jpg",
-      "../image/dell4.jpg"
+      "../image/dell4.jpg",
     ],
     Price: "$ 148",
     About:
@@ -203,16 +203,16 @@ export const DataProducts = [
   {
     id: 4,
     Name: "Macbook",
-    CPU:"Core i7",
-    Ram:"16 GB",
-    Hard:"1 TB",
-    Size:"16.9 Inches",
-    img:"../image/mac1.jpg",
+    CPU: "Core i7",
+    Ram: "16 GB",
+    Hard: "1 TB",
+    Size: "16.9 Inches",
+    img: "../image/mac1.jpg",
     Avatar: [
       "../image/mac1.jpg",
       "../image/mac2.jpg",
       "../image/mac3.jpg",
-      "../image/mac4.jpg"
+      "../image/mac4.jpg",
     ],
     Price: "$ 170",
     About:

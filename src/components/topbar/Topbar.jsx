@@ -21,7 +21,7 @@ export default function TopBar() {
         <div className="topbar-icon">
           <RiSettings5Line />
         </div>
-        <img className="topbar-image" src="image/IMG1.jpg" alt="myImage" />
+        <img className="topbar-image" src="image/IMG6.jpg" alt="myImage" />
       </div>
     </div>
   );

@@ -19,14 +19,6 @@ export default function QuickMenu() {
               {DataSideBar.SideBar[5].name}
             </li>
           </Link>
-          <Link to="/NewUser">
-            <li className="sidebar-list-item">
-              <p className="sidebar-icon">
-                <FiUser />
-              </p>
-              {DataSideBar.SideBar[6].name}
-            </li>
-          </Link>
           <Link to="/Products">
             <li className="sidebar-list-item">
               <p className="sidebar-icon">
