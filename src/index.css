@@ -3,236 +3,260 @@
 @tailwind utilities;
 
 @font-face {
-     font-family: 'YekanBalkhHeavy';
-     src: local('YekanBalkhHeavy'), url(./fmasire_file_font.ttf) format('ttf');
+  font-family: "YekanBalkhHeavy";
+  src: local("YekanBalkhHeavy"), url(./fmasire_file_font.ttf) format("ttf");
 }
 
 @layer base {
-     html {
-          font-family: YekanBalkhHeavy;
-     }
+  html {
+    font-family: YekanBalkhHeavy;
+  }
 }
-
 
 @layer utilities {
-     .topbar {
-          @apply flex justify-between w-full h-16 items-center sticky z-50 pl-5
-     }
-     .topbar-logo {
-          @apply font-bold text-3xl
-     }
-     .topbar-right {
-          @apply flex text-xl pr-6
-     }
-     .topbar-icon {
-          @apply flex mr-4 items-center text-2xl
-     }
-     .topbar-span {
-          @apply w-5 h-5 absolute bottom-10 rounded-full flex items-center justify-center text-white ml-3 bg-red-700 text-base
-     }
-     .topbar-image {
-          @apply flex w-10 h-10 rounded-full items-center object-cover cursor-pointer
-     }
+  .topbar {
+    @apply flex justify-between w-full h-16 items-center sticky z-50 pl-5;
+  }
+  .topbar-logo {
+    @apply font-bold text-3xl;
+  }
+  .topbar-right {
+    @apply flex text-xl pr-6;
+  }
+  .topbar-icon {
+    @apply flex mr-4 items-center text-2xl;
+  }
+  .topbar-span {
+    @apply w-5 h-5 absolute bottom-10 rounded-full flex items-center justify-center text-white ml-3 bg-red-700 text-base;
+  }
+  .topbar-image {
+    @apply flex w-10 h-10 rounded-full items-center object-cover cursor-pointer;
+  }
 }
-
 
 @layer utilities {
-     .sidebar-main{
-          @apply flex-col border-r w-64 shadow-3xl
-     }
-     .sidebar {
-          @apply px-5 mt-2 font-bold text-sm
-     }
-     .sdidebar-list{
-          @apply mt-2
-     }
-     .sidebar-list-item {
-          @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-100 w-56 mx-2
-     }
-     .sidebar-icon{
-          @apply px-2 text-sm
-     }
+  .sidebar-main {
+    @apply flex-col border-r w-64 shadow-3xl;
+  }
+  .sidebar {
+    @apply px-5 mt-2 font-bold text-sm;
+  }
+  .sdidebar-list {
+    @apply mt-2;
+  }
+  .sidebar-list-item {
+    @apply flex items-center p-1 px-5 text-lg text-gray-500 rounded-lg hover:bg-gray-100 w-56 mx-2;
+  }
+  .sidebar-icon {
+    @apply px-2 text-sm;
+  }
 }
 
-@layer utilities{
-     .Home{
-          @apply w-full
-     }
+@layer utilities {
+  .Home {
+    @apply w-full;
+  }
 }
 
-@layer utilities{
-     .featuer{
-          @apply flex justify-between
-     }
-     .featuer-item{
-          @apply flex-1 mx-5 p-7 border rounded-lg cursor-pointer shadow-md
-     }
-     .featuer-title{
-          @apply text-xl font-medium
-     }
-     .featuer-container{
-          @apply flex items-center my-2
-     }
-     .featuer-money{
-          @apply text-2xl font-semibold
-     }
-     .featuer-rate{
-          @apply flex items-center ml-5
-     }
-     .featuer-icon{
-          @apply text-green-500 text-lg ml-2
-     }
-     .negative{
-          @apply text-red-600
-     }
-     .featuer-sub{
-          @apply text-gray-400
-     }
+@layer utilities {
+  .featuer {
+    @apply flex justify-between;
+  }
+  .featuer-item {
+    @apply flex-1 mx-5 p-7 border rounded-lg cursor-pointer shadow-md;
+  }
+  .featuer-title {
+    @apply text-xl font-medium;
+  }
+  .featuer-container {
+    @apply flex items-center my-2;
+  }
+  .featuer-money {
+    @apply text-2xl font-semibold;
+  }
+  .featuer-rate {
+    @apply flex items-center ml-5;
+  }
+  .featuer-icon {
+    @apply text-green-500 text-lg ml-2;
+  }
+  .negative {
+    @apply text-red-600;
+  }
+  .featuer-sub {
+    @apply text-gray-400;
+  }
 }
-@layer utilities{
-     .chart{
-          @apply m-5 p-3 border rounded-lg shadow-md
-     }
-     .chart-title{
-          @apply font-semibold text-lg m-2
-     }
+@layer utilities {
+  .chart {
+    @apply m-5 p-3 border rounded-lg shadow-md;
+  }
+  .chart-title {
+    @apply font-semibold text-lg m-2;
+  }
 }
-@layer utilities{
-     .home-widgets{
-          @apply flex m-5
-     }
+@layer utilities {
+  .home-widgets {
+    @apply flex m-5;
+  }
 }
-@layer utilities{
-     .widget-sm{
-          @apply  w-1/3 p-4 shadow-md border rounded-md
-     }
-     .widget-sm-title{
-          @apply text-lg font-semibold
-     }
-     .widget-sm-list{
-          @apply m-0 p-0
-     }
-     .widget-sm-item{
-          @apply flex justify-between items-center m-5
-     }
-     .widget-sm-IMG{
-          @apply w-10 rounded-full object-cover
-     }
-     .widget-sm-user{
-          @apply flex flex-col
-     }
-     .widget-sm-userName{
-          @apply font-semibold
-     }
-     .widget-sm-userTitle{
-          @apply text-sm text-gray-400
-     }
-     .widget-sm-button{
-          @apply flex items-center border p-1 rounded-md bg-slate-200 text-gray-700
-     }
+@layer utilities {
+  .widget-sm {
+    @apply w-1/3 p-4 shadow-md border rounded-md;
+  }
+  .widget-sm-title {
+    @apply text-lg font-semibold;
+  }
+  .widget-sm-list {
+    @apply m-0 p-0;
+  }
+  .widget-sm-item {
+    @apply flex justify-between items-center m-5;
+  }
+  .widget-sm-IMG {
+    @apply w-10 rounded-full object-cover;
+  }
+  .widget-sm-user {
+    @apply flex flex-col;
+  }
+  .widget-sm-userName {
+    @apply font-semibold;
+  }
+  .widget-sm-userTitle {
+    @apply text-sm text-gray-400;
+  }
+  .widget-sm-button {
+    @apply flex items-center border p-1 rounded-md bg-slate-200 text-gray-700;
+  }
 }
-@layer utilities{
-     .widget-lg{
-          @apply p-4 shadow-md border ml-5 rounded-md w-full
-     }
-     .widget-lg-title{
-          @apply text-lg font-semibold
-     }
-     .wiget-lg-table{
-          @apply w-full ml-12
-     }
-     .widget-lg-th{
-          @apply py-5 text-left
-     }
-     .widget-lg-user{
-          @apply flex items-center py-2 
-     }
-     .widget-lg-img{
-          @apply w-10 rounded-full object-cover mr-2
-     }
-     .widget-lg-date,.widget-lg-amount{
-          @apply text-sm text-gray-600
-     }
-     .widget-lg-button{
-          @apply border-none rounded-md w-20
-     }
-     .widget-lg-button.Approved {
-          @apply bg-green-200 text-green-900
-     }
-     .widget-lg-button.Declined {
-          @apply bg-red-200 text-red-900
-     }
-     .widget-lg-button.Pending {
-          @apply bg-blue-200 text-blue-900
-     }
-}
-
-@layer utilities{
-     .user-list-main{
-          @apply w-full mx-5 border rounded-md shadow-md h-min py-10
-     }
-     .user-list-top{
-          @apply flex mx-10
-     }
-     .user-list-top-item{
-          @apply w-48 text-lg font-semibold
-     }
-     .user-list-li{
-          @apply flex mt-6 mx-10
-     }
-     .user-list-img{
-          @apply w-14 rounded-full object-cover mr-2
-     }
-     .user-list-IMG{
-          @apply w-14 h-14 object-cover rounded-full mr-5
-     }
-     .user-list-item{
-          @apply flex items-center w-48
-     }
-     .user-list-button{
-          @apply border w-16 rounded-md bg-green-300
-     }
-     .user-list-icon{
-          @apply text-red-500 text-xl mx-4 cursor-pointer
-     }
+@layer utilities {
+  .widget-lg {
+    @apply p-4 shadow-md border ml-5 rounded-md w-full;
+  }
+  .widget-lg-title {
+    @apply text-lg font-semibold;
+  }
+  .wiget-lg-table {
+    @apply w-full ml-12;
+  }
+  .widget-lg-th {
+    @apply py-5 text-left;
+  }
+  .widget-lg-user {
+    @apply flex items-center py-2;
+  }
+  .widget-lg-img {
+    @apply w-10 rounded-full object-cover mr-2;
+  }
+  .widget-lg-date,
+  .widget-lg-amount {
+    @apply text-sm text-gray-600;
+  }
+  .widget-lg-button {
+    @apply border-none rounded-md w-20;
+  }
+  .widget-lg-button.Approved {
+    @apply bg-green-200 text-green-900;
+  }
+  .widget-lg-button.Declined {
+    @apply bg-red-200 text-red-900;
+  }
+  .widget-lg-button.Pending {
+    @apply bg-blue-200 text-blue-900;
+  }
 }
 
-@layer utilities{
-     .product-main{
-          @apply flex mx-5
-     }
+@layer utilities {
+  .user-list-main {
+    @apply w-full mx-5 border rounded-md shadow-md h-min py-10;
+  }
+  .user-list-top {
+    @apply flex mx-10;
+  }
+  .user-list-top-item {
+    @apply w-48 text-lg font-semibold;
+  }
+  .user-list-li {
+    @apply flex mt-6 mx-10;
+  }
+  .user-list-img {
+    @apply w-14 rounded-full object-cover mr-2;
+  }
+  .user-list-IMG {
+    @apply w-14 h-14 object-cover rounded-full mr-5;
+  }
+  .user-list-item {
+    @apply flex items-center w-48;
+  }
+  .user-list-button {
+    @apply border w-16 rounded-md bg-green-300;
+  }
+  .user-list-icon {
+    @apply text-red-500 text-xl mx-4 cursor-pointer;
+  }
+}
 
+@layer utilities {
+  .product-main {
+    @apply flex mx-5;
+  }
 
-     .details{
-          @apply border-2 rounded-lg p-5 h-96 w-3/6 ml-5
-     }
-     .name-item{
-          @apply text-lg pt-1
-     }
-     .item-price-buy{
-          @apply flex mt-7
-     }
-     .button-price{
-          @apply text-blue-500 font-semibold text-center w-64 mx-auto
-     }
-     .button-buy{
-          @apply border text-center bg-green-300 w-64 mx-auto
-     }
-     .name-about{
-          @apply text-justify text-gray-500
-     }
+  .details {
+    @apply border-2 rounded-lg p-5 h-96 w-3/6 ml-5;
+  }
+  .name-item {
+    @apply text-lg pt-1;
+  }
+  .item-price-buy {
+    @apply flex mt-7;
+  }
+  .button-price {
+    @apply text-blue-500 font-semibold text-center w-64 mx-auto;
+  }
+  .button-buy {
+    @apply border text-center bg-green-300 w-64 mx-auto;
+  }
+  .name-about {
+    @apply text-justify text-gray-500;
+  }
 
+  .slider {
+    @apply h-96 w-3/6;
+  }
+  .slider-IMG {
+    @apply object-cover w-full h-96;
+  }
+  .arrow-buttons {
+    @apply flex justify-center py-2;
+  }
+  .arrow-buttons-one {
+    @apply font-bold px-14 mt-4 border bg-gray-200 mx-2;
+  }
+}
 
-     .slider{
-          @apply h-96 w-3/6
-     }
-     .slider-IMG{
-          @apply object-cover w-full h-96
-     }
-     .arrow-buttons{
-          @apply flex justify-center py-2
-     }
-     .arrow-buttons-one{
-          @apply font-bold px-14 mt-4 border bg-gray-200 mx-2
-     }
+@layer utilities {
+  .users {
+    @apply flex;
+  }
+  .users-add {
+    @apply border w-32 h-12 text-center justify-center flex rounded-lg shadow-lg bg-green-300;
+  }
+  .popup-overlay {
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center;
+  }
+  .popup-backdrop {
+    @apply fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50;
+  }
+  .popup-content {
+    @apply bg-white p-5 rounded-lg shadow-lg z-10;
+  }
+  .popup-content input {
+    @apply w-64 flex p-3 m-2;
+  }
+  .popup-content-select {
+    @apply w-full p-3 m-2;
+  }
+  .popup-content-button {
+    @apply p-3 m-2;
+  }
 }
