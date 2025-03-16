@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { DataProducts } from "@/datas";
 import { Carousel } from "react-responsive-carousel";

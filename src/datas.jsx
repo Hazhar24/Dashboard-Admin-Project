@@ -1,3 +1,4 @@
+// eslint-disable-next-line react-refresh/only-export-components
 export const xAxisData = [
   {
     name: "Jan",
@@ -110,6 +111,7 @@ export const Transactions = [
     img: "image/IMG7.jpg",
   },
 ];
+// eslint-disable-next-line react-refresh/only-export-components
 export const userRows = [
   {
     id: 1,
@@ -217,5 +219,35 @@ export const DataProducts = [
     Price: "$ 170",
     About:
       "Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day.IMPRESSIVE GRAPHICS",
+  },
+];
+export const DataProfileCard = [
+  {
+    id: 1,
+    userName: "@H24ghaderi",
+    name: "Facebook",
+    Avatar: "../image/facebook.png",
+    followers: "605.4K",
+  },
+  {
+    id: 2,
+    userName: "@H24ghaderi",
+    name: "Instagram",
+    Avatar: "../image/instagram.jpeg",
+    followers: "600.7K",
+  },
+  {
+    id: 3,
+    name: "Linkedin",
+    userName: "@H24ghaderi",
+    Avatar: "../image/linkedin.png",
+    followers: "2M",
+  },
+  {
+    id: 4,
+    name: "Twitter",
+    userName: "@H24ghaderi",
+    Avatar: "../image/twitter.png",
+    followers: "10.5M",
   },
 ];

@@ -260,3 +260,30 @@
     @apply p-3 m-2;
   }
 }
+
+@layer utilities {
+  .profile {
+    @apply w-full border rounded-md shadow-md h-min py-10;
+  }
+  .profile-p1 {
+    @apply text-lg;
+  }
+  .profile-p2 {
+    @apply text-3xl py-2 font-bold;
+  }
+  .profile-Specifications{
+    @apply flex justify-evenly
+  }
+  .profile-box {
+    @apply w-64 h-60 border rounded-xl shadow-lg bg-blue-100;
+  }
+  .profile-card-image {
+    @apply size-20 rounded-full;
+  }
+  .profile-card {
+    @apply flex justify-around p-5 items-center;
+  }
+  .profile-card-p {
+    @apply text-4xl text-center pt-5 font-extrabold;
+  }
+}
